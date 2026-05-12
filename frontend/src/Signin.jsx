@@ -1,15 +1,8 @@
-const Signup = () => {
+const Signin = () => {
   return (
     <form>
       <div className="mb-3">
-        <label for="exampleInputUserName" className="form-label">
-          UserName
-        </label>
-        <input type="text" className="form-control" id="exampleInputUserName" />
-      </div>
-
-      <div className="mb-3">
-        <label for="exampleInputEmail1" className="form-label">
+        <label for="exampleInputEmail1" class="form-label">
           Email address
         </label>
         <input
@@ -19,7 +12,6 @@ const Signup = () => {
           aria-describedby="emailHelp"
         />
       </div>
-
       <div className="mb-3">
         <label for="exampleInputPassword1" className="form-label">
           Password
@@ -30,16 +22,16 @@ const Signup = () => {
           id="exampleInputPassword1"
         />
       </div>
-
       {/* <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div> */}
-
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">
+          Check me out
+        </label>
+      </div> */}
       <button type="submit" className="btn btn-primary">
         Submit
       </button>
     </form>
   );
 };
-export default Signup;
+export default Signin;
